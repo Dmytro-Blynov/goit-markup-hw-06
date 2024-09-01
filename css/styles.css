@@ -859,6 +859,71 @@ footer {
   fill: #f4f4fd;
 }
 
+.modal {
+  margin-top: 72px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.modal-text {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.mail {
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #ffffff;
+  border-radius: 4px;
+  width: 288px;
+  height: 40px;
+}
+
+.input::placeholder {
+  color: #ffffff;
+}
+
+.form-btn {
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
+}
+
+.form-icon {
+  margin-left: 16px;
+}
+
+@media screen and (min-width: 768px) {
+}
+
 /* mobile menu  */
 
 .mobile-menu {

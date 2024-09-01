@@ -748,6 +748,7 @@ button {
   .portfolio-list {
     width: 768px;
     gap: 24px;
+    margin: 0 auto;
   }
 
   .portfolio-list-item {
@@ -764,11 +765,6 @@ button {
   .portfolio {
     width: 1158px;
     padding: 120px 0;
-  }
-
-  .portfolio-list {
-    width: 1128px;
-    height: 428px;
   }
 
   .portfolio-list-item {

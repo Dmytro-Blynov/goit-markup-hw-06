@@ -650,8 +650,6 @@ button {
 /* portfolio */
 .portfolio {
   background-color: #fff;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .team-heading {
@@ -744,7 +742,6 @@ button {
   .portfolio-list {
     width: 768px;
     gap: 24px;
-    margin-bottom: 72px;
   }
 }
 
@@ -764,6 +761,11 @@ button {
 }
 
 /* footer  */
+footer {
+  background-color: #2e2f42;
+  color: #f4f4fd;
+  padding: 100px 0;
+}
 
 /* mobile menu  */
 

@@ -773,21 +773,23 @@ button {
 }
 
 /* footer  */
-.footer {
+footer {
   background-color: #2e2f42;
   color: #f4f4fd;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
 }
 
 .footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 16px;
+  justify-content: center;
   max-width: 320px;
 }
 
 .footer-div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
   margin-top: 96px;
 }
 
@@ -800,7 +802,6 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 16px;
-  display: inline-block;
 }
 
 .footer-span {
@@ -814,6 +815,9 @@ button {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
+  margin-top: 16px;
+  display: flex;
+  text-align: left;
 }
 
 .social-media {
@@ -827,11 +831,11 @@ button {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
+  text-align: center;
 }
 
 .footer-list {
   display: flex;
-  justify-content: center;
   gap: 16px;
 }
 
@@ -872,25 +876,25 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
+  text-align: center;
 }
 
 .form {
-  display: flex;
   gap: 24px;
 }
 
 .mail {
-  width: 264px;
-  height: 40px;
   border: 1px solid #ffffff;
   background-color: transparent;
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
-  padding-left: 16px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: #ffffff;
+  border-radius: 4px;
+  width: 288px;
+  height: 40px;
 }
 
 .input::placeholder {
@@ -918,9 +922,55 @@ button {
   margin-right: auto;
 }
 
-.form-btn:hover,
-.form-btn:focus {
-  background-color: #404bbf;
+.form-icon {
+  margin-left: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-container {
+    max-width: 768px;
+    gap: 24px;
+  }
+
+  .social-text {
+    margin-top: 24px;
+  }
+
+  .modal-text {
+    text-align: left;
+  }
+
+  .social-text {
+    text-align: left;
+  }
+
+  .footer-logo {
+    text-align: left;
+  }
+
+  .modal {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .footer-container {
+    max-width: 1158px;
+  }
+
+  .footer-div {
+    margin-top: 100px;
+  }
+
+  .modal-block {
+    margin-top: 24px;
+  }
+
+  .form-btn {
+    margin-top: 64px;
+  }
 }
 
 /* mobile menu  */
